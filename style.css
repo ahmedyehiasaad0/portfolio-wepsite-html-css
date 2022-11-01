@@ -1,0 +1,520 @@
+ 
+ 
+ *{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+}
+header{
+    background-color: #f0f0f0;
+    width: 100%;
+    position: fixed;
+    z-index: 9999;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 200px;
+}
+h1{
+    color: rgb(223, 192, 15);
+}
+h1::after{
+    content: "";
+    animation: typing 10s linear infinite;
+}
+@keyframes typing {
+
+    0%{
+        content: "A|";
+    }
+    1%{
+        content: "Ah|";
+    }
+    2%{
+        content: "Ahm|";
+    }
+    3%{
+        content: "Ahmd|";
+    }
+    4%{
+        content: "Ahmd |";
+    }
+    5%{
+        content: "Ahmd S|";
+    }
+    6%{
+        content: "Ahmd Sa|";
+    }
+    7%{
+        content: "Ahmd Sa3|";
+    }
+    8%{
+        content: "Ahmd Sa3d|";
+    }
+    10%{
+        content: "Ahmd Sa3|";
+    }
+    11%{
+        content: "Ahmd Sa|";
+    }
+    12%{
+        content: "Ahmd S|";
+    }
+    13%{
+        content: "Ahmd |";
+    }
+    14%{
+        content: "Ahmd|";
+    }
+    15%{
+        content: "Ahm|";
+    }
+    16%{
+        content: "Ah|";
+    }
+    17%{
+        content: "A|";
+    }
+    19%{
+        content: "|";
+    }
+    20%{
+        content: "F|";
+    }
+    21%{
+        content: "Fr|";
+    }
+    23%{
+        content: "Fro|";
+    }
+    25%{
+        content: "Fron|";
+    }
+    28%{
+        content: "Front|";
+    }
+    30%{
+        content: "FrontE|";
+    }
+    32%{
+        content: "FrontEn|";
+    }
+    35%{
+        content: "FrontEnd|";
+    }
+    37%{
+        content: "FrontEnd |";
+    }
+    40%{
+        content: "FrontEnd D|";
+    }
+    43%{
+        content: "FrontEnd D|";
+    }
+    46%{
+        content: "FrontEnd De|";
+    }
+    50%{
+        content: "FrontEnd Dev|";
+    }
+    53%{
+        content: "FrontEnd Deve|";
+    }
+    56%{
+        content: "FrontEnd Devel|";
+    }
+    60%{
+        content: "FrontEnd Develo|";
+    }
+    65%{
+        content: "FrontEnd Develop|";
+    }
+    70%{
+        content: "FrontEnd Develope|";
+    }
+    75%{
+        content: "FrontEnd Developer|";
+    }
+    78%{
+        content: "FrontEnd Developer |";
+    }
+    80%{
+        content: "FrontEnd Developer A|";
+    }
+    81%{
+        content: "FrontEnd Developer An|";
+    }
+    83%{
+        content: "FrontEnd Developer And|";
+    }
+    85%{
+        content: "FrontEnd Developer And |";
+    }
+    87%{
+        content: "FrontEnd Developer And D|";
+    }
+    88%{
+        content: "FrontEnd Developer And De|";
+    }
+    90%{
+        content: "FrontEnd Developer And Des|";
+    }
+    92%{
+        content: "FrontEnd Developer And Desi|";
+    }
+    95%{
+        content: "FrontEnd Developer And Desin|";
+    }
+    97%{
+        content: "FrontEnd Developer And Desine|";
+    }
+    100%{
+        content: "FrontEnd Developer And Desiner|";
+    }
+
+
+
+
+}
+
+.arrow{
+    text-align: center;
+    width: 25px;
+    height: 25px;
+    position: fixed;
+    right: 10;
+    bottom: 20;
+    background-color: red;
+    padding: 5px;
+}
+
+.arrow i{
+    color: white;
+}
+.logo{
+    text-decoration: none;
+    color: #2201fc;
+    text-transform: uppercase;
+    font-weight: 700;
+    font-size: 1.8em;
+}
+.logo:hover{
+    color: gold;
+}
+.navegation a{
+    text-decoration: none;
+    color: #3a6cf4;
+    padding: 20px;
+    font-weight: 500;
+    font-size: 1.1em;
+}
+.navegation a:hover{
+    color: rgb(255, 0, 0);
+}
+section{
+    padding: 100PX 200PX;
+}
+.main{
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    background-image: url(./images/Picsart_22-10-23_00-29-13-674.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: top;
+    background-attachment: fixed;
+
+}
+.main h5,h3{
+    color: #f0f0f0;
+    font-weight: 500;
+    font-size: 1.3em;
+    padding: 10px;
+}
+.main h2{
+    color: #3a6cf4;
+    font-weight: 700;
+    font-size: 2em;
+    padding-left: 10px;
+}
+
+.main-btn{
+    background-color: #4576fd;
+    color: #f0f0f0;
+    padding: 5px 10px;
+    text-decoration: none;
+    font-size: 1.2em;
+    font-weight: 400;
+    border-radius: 12px;
+    width: 100%;
+    
+    
+}
+
+
+    
+
+.main-btn:hover{
+    
+    
+    background-color: #0344f8;
+   
+}
+hr{
+    width: 100px;
+    height: 5px;
+    background-color: red;
+    margin:10px auto;
+
+}
+
+.social-icons{
+    margin-top: 30px;
+
+}
+.social-icons a{
+    color: #f0f0f0;
+    padding: 10px;
+
+    font-size: 1.6em;
+}
+
+
+
+
+
+
+.cards{
+    text-align: center;
+}
+.cards h2{
+    color: #0344f8;
+    font-size: 2em;
+}
+
+.content{
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    
+}
+.card{
+    background-color: #f0f0f0;
+   width: 21.25em;
+    margin: 15px;
+    padding: 50px 0px;
+    box-shadow: 0 5px 25px rgba(1 1 1/50%);
+    transition: transform 1s;
+}
+
+.card .fa-solid{
+    font-weight:bold;
+    font-size: 5em;
+    color: #0344f8;
+}
+.card .info{
+    padding: 20px;
+   
+}
+.card .info h3{
+    color: blue;
+    font-size: 1.3em;
+    
+}
+.card:hover{
+    transform: scale(1.1);
+}
+
+
+
+
+
+
+
+
+.projects{
+    background-color: black;
+   text-align: center;
+   
+    
+}
+
+.projects h2{
+    color: #0344f8;
+    font-size: 2em;
+}
+.proj{
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    flex-wrap: wrap;
+
+}
+
+.item{
+    background-color: #f0f0f0;
+    width: 30%;
+    transition: transform 1s;
+    margin: 15px;
+    
+}
+.item img{
+    width: 100%;
+}
+.item h3{
+    color: #0344f8;
+    font-size: 1.5em;
+}
+.item a{
+    text-decoration: none;
+    font-size: 1.3em;
+    color: teal;
+}
+.item a:hover{
+    color: red;
+}
+
+
+.item:hover{
+    transform: scale(1.1);
+}
+.item p{
+    padding: 10px;
+}
+
+
+
+
+
+.contacts{
+    text-align: center;
+}
+.contacts h2{
+    color: #0344f8;
+    font-size: 2.5em;
+}
+
+span{
+    color: darkorchid;
+
+    font-size: 2em;
+}
+
+.contact h3{
+ color: cadetblue;
+ font-size: 1.7em;
+}
+.contact h4{
+    
+    font-size: 1.7em;
+   }
+   .contact i{
+    color: #0344f8;
+    font-size: 2em;
+   }
+
+
+.contact{
+    width: 33%;
+    background-color: #f0f0f0;
+    margin: 15px;
+    padding: 30px;
+    box-shadow: 0 5px 25px rgba(1 1 1/50%);
+    transition: transform 1s;
+}
+.contact:hover{
+    transform: scale(1.1);
+}
+
+
+
+
+
+
+.foot{
+    background-color: black;
+    padding: 20px;
+    display: flex;
+    justify-content: space-between;
+}
+.foot h3{
+    margin-left: 150px;
+}
+
+.footer-item{
+    color: #0344f8;
+    font-size: 1.2em;
+}
+.social-icons a:hover{
+    color: red;
+}
+
+.icons2{
+    margin-right:20px ;
+}
+
+@media only screen and (max-width: 1023px){
+    header{
+        padding: 10px 20px;
+    }
+    .navegation a{
+        padding: 5px;
+    }
+    h2{
+        font-size: 1.5em;
+    }
+    section{
+        padding: 80px 20px;
+    }
+    .social-icons{
+        font-size: 1em;
+    }
+    .content{
+        
+        flex-direction: column;
+        align-items: center;
+        
+    }
+    .proj{
+        flex-direction: column;
+        align-items: center;
+        
+    }
+    
+    .contact h4{
+        font-size: 0.5em;
+        
+    }
+    .footer-item{
+        font-size: 1em;
+
+    }
+    .foot h3{
+        margin-left: 20px;
+    }
+
+
+}
+@media only screen and (min-width: 1000px){
+
+    .contact h4{
+        font-size: 0.9em;
+    }
+    .item{
+        width:40%;
+    }
+
+}
+@media only screen and (min-width: 1400px){
+
+    .contact h4{
+        font-size: 1.7em;
+    }
+    .item{
+        width: 30%;
+    }
+
+}
+
